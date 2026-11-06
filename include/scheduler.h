@@ -4,7 +4,7 @@
 #include <stddef.h>
 #include <time.h>
 
-#define SCHEDULER_VERSION_STRING "0.1.0-rc1"
+#define SCHEDULER_VERSION_STRING "0.1.0"
 
 /* SCHEDULER_OK is success. SCHEDULER_NOMEM means allocation failed and the
    schedule was left unchanged, except a create which sets *sched to NULL.
